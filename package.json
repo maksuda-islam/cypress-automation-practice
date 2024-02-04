@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "cypress": "^13.6.3",
+    "cypress-mochawesome-reporter": "^3.8.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "scripts": {
+    "cypress:open": "npx cypress open",
+    "runCy": "cypress run ",
+    "task1+2": "npm run runCy -- -b chrome --headed --spec \"cypress/e2e/task1+2.cy.js\""
+  }
+}
